@@ -1,0 +1,67 @@
+p {
+    margin: 0px;
+}
+.card {
+    width: 200px;
+    display: inline-block;
+    padding-left: 20px;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    margin-right: 20px;
+    height : 400px;
+}
+
+.picture {
+    width : 100%;
+    height : 250px;
+
+}
+
+.user-info {
+    height : 150px;
+}
+
+
+.line1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.line2 {
+    vertical-align: top;
+}
+.line2_pic, .line2_text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text {
+    font-size: 13px;
+    color: gray;
+}
+
+.line2_pic {
+    width : 50px;
+}
+.line2_test {
+    width: 200px;
+}
+
+.round_pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.friend-button {
+    border-radius: 5px;
+    background-color: rgb(67, 67, 238);
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
