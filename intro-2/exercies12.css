@@ -1,0 +1,50 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(137, 80, 199);
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.left-side {
+    font-weight: bold;
+    width: 50px;
+    margin-right: 40px;
+    color: white;
+
+}
+
+.press {
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 6px;
+    background-color: rgb(137, 80, 199) ;
+}
+
+.right-side {
+    width: 100px;
+}
+.middle-area {
+    width: 1 flex;
+}
+.search-box {
+    border-radius: 20px;
+    margin-right : 200px;
+    border-style: none;
+    padding: 10px;
+    width: 100%;
+    
+}
+
