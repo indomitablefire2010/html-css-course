@@ -17,12 +17,44 @@
 .bottom {
     display: flex;
     align-items: center;
-    background-color: lightpink;
     height: 100px;   
+}
+.bottom-left {
+    margin-left: 20px;
 }
 
 .picture {
     height: 40px;
     width: 40px;
     border-radius: 20px;
+    
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.row1-left {
+    font-weight: bold;
+}
+
+.row1-right {
+    color: grey;
+}
+
+.row2 {
+    font-weight: bold;
+}
+
+.row3 {
+    color: gray;
 }
