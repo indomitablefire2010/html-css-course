@@ -1,0 +1,48 @@
+body {
+    height: 3000px;
+}
+
+.double-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+}
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    justify-items: center;
+    background-color: rgb(39, 39, 39);
+    width: 60px;
+}
+
+.image1, .image2, .image3 {
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+} 
+
+.right-bar {
+    width: 150px;
+    background-color: rgb(69, 69, 69);
+    padding-left: 10px;;
+}
+
+.heading {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.line1, .line2, .line3 {
+    margin-bottom: 15px;
+    color: rgb(152, 150, 150);
+} 
+
