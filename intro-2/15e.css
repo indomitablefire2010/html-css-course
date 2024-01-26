@@ -1,0 +1,26 @@
+body {
+    height: 3000px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    height : 120px;
+}
+
+.pic {
+    height : 100%;
+    object-fit: cover;
+}
+
+.discount {
+    position: absolute;
+    right: 0px;
+    top : 10px;
+    padding: 2px;
+    
+    font-size: 10px;
+    background-color: black;
+    color: white;
+
+}
